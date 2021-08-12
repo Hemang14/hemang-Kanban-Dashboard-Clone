@@ -1,5 +1,5 @@
 # Kanban Dashboard Clone
-===========================
+
 
 This a Clone of Trello and to showcase some basic skills. The project is built with React.js ,Scss and  Firebase 
 
