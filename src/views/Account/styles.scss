@@ -1,0 +1,26 @@
+.account-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 24px;
+  max-width: 400px;
+  margin: 0 auto;
+  .account-details {
+    width: 100%;
+  }
+  .account-form {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .account-container {
+    width: 400px;
+  }
+}
+
+body {
+  background-image: linear-gradient(rgb(68, 140, 173), rgb(93, 64, 150));
+}

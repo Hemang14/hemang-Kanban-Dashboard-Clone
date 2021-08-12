@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: rgb(5, 32, 32);
+  border-bottom: 1px solid rgb(112, 158, 112);
+  &__home {
+    > a {
+      > button {
+      }
+    }
+  }
+  h1 {
+    color: white;
+    font-size: 30px;
+  }
+}

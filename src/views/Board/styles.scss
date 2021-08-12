@@ -1,0 +1,15 @@
+.board-wrapper {
+  flex: 1 1 0%;
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 8px;
+  padding: 0px 4px 0 8px;
+  background-image: linear-gradient(rgb(68, 140, 173), rgb(9, 4, 19));
+  display: flex;
+  .lists-container {
+    margin-top: 4px;
+  }
+  .create-list {
+    margin-top: 4px;
+  }
+}
